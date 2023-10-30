@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://missuo.ru/file/e9ce34122e87465e6a839.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Ad-Free Embedded Video Player API</title>
+</head>
+
+<body>
+    <div class="video-container">
+        <iframe class="player" src="<%= url %>"
+            sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen gesture="media">
+            <p>Your browser does not support iframes!</p>
+        </iframe>
+    </div>
+
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+</body>
+
+</html>
